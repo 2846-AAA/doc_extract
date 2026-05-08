@@ -1,0 +1,11 @@
+2026-05-08 17:23:34 | ERROR    | app.db.database:init_db:27 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-08 17:24:09 | ERROR    | app.db.database:init_db:27 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-08 17:25:23 | INFO     | app.db.database:init_db:25 - Database tables initialized
+2026-05-08 17:29:04 | INFO     | app.services.extraction_service:process_document:38 - Processing aadhaar document: WhatsApp Image 2026-02-27 at 5.09.30 PM (2).jpeg (0.15MB)
+2026-05-08 17:29:05 | ERROR    | app.extractors.ocr_service:extract_text:40 - OCR failed: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.
+2026-05-08 17:29:05 | WARNING  | app.services.extraction_service:process_document:52 - OCR failed for WhatsApp Image 2026-02-27 at 5.09.30 PM (2).jpeg: OCR processing failed: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.
+2026-05-08 17:29:05 | INFO     | app.db.repository:create:25 - Saved extraction record id=1 doc_type=aadhaar
