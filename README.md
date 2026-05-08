@@ -17,7 +17,7 @@ A FastAPI + Streamlit app that extracts structured info from documents like Aadh
 
 1. Clone the repo and go into the folder:
 ```
-git clone <your-repo-url>
+git clone <https://github.com/2846-AAA/doc_extract>
 cd doc_extraction
 ```
 
