@@ -107,4 +107,4 @@ if st.button("Load History"):
     except requests.exceptions.ConnectionError:
         st.error("API not reachable")
 
-st.caption("Made by Anuja Dhamdhere | 2025")
+st.caption("Made by Anuja Dhamdhere | 2026")
