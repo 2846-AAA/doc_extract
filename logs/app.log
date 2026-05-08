@@ -9,3 +9,8 @@
 2026-05-08 17:29:05 | ERROR    | app.extractors.ocr_service:extract_text:40 - OCR failed: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.
 2026-05-08 17:29:05 | WARNING  | app.services.extraction_service:process_document:52 - OCR failed for WhatsApp Image 2026-02-27 at 5.09.30 PM (2).jpeg: OCR processing failed: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.
 2026-05-08 17:29:05 | INFO     | app.db.repository:create:25 - Saved extraction record id=1 doc_type=aadhaar
+2026-05-08 17:32:35 | INFO     | app.services.extraction_service:process_document:38 - Processing pan_card document: WhatsApp Image 2026-02-27 at 5.09.31 PM (1).jpeg (0.10MB)
+2026-05-08 17:32:43 | ERROR    | app.extractors.llm_service:extract_fields:64 - LLM call failed: Connection error.
+2026-05-08 17:32:43 | WARNING  | app.services.extraction_service:process_document:69 - LLM extraction failed: Groq API call failed: Connection error.
+2026-05-08 17:32:43 | INFO     | app.db.repository:create:25 - Saved extraction record id=2 doc_type=pan_card
+2026-05-08 17:32:43 | INFO     | app.services.extraction_service:process_document:83 - Extraction complete: record id=2

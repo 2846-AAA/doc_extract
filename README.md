@@ -11,7 +11,7 @@ A FastAPI + Streamlit app that extracts structured info from documents like Aadh
 - Python 3.12
 - PostgreSQL running locally
 - Tesseract OCR installed (Windows: https://github.com/UB-Mannheim/tesseract/wiki)
-- OpenAI API key
+- Groq API key
 
 ## How to run
 
@@ -56,3 +56,4 @@ pytest
 - Tesseract path in .env needs to point to your actual install
 - Some tests are skipped without a real DB (marked with skip reason)
 - PAN Card support added as extra (not in original spec)
+- Uses Groq (free) instead of OpenAI for LLM extraction
